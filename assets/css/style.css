@@ -16,7 +16,6 @@ h1, h2, h3, p {
 }
 
 
-
 h1, h2, h3 {
 	font-family: 'Georgia', Times, Times New Roman, 
 		serif;
@@ -37,20 +36,21 @@ h2, h3 {
 
 /*Nav bar*/
 .topbar {
-	background-color: white;
+	background-color: #fff;
 }
 #about {
-	padding: 20px 30px 45px 30px; 
-	background-color: teal; 
-	color: white; 
-	font-size: 26px;
+	padding: 30px 40px 55px 40px; 
+	background-color: #4aaaa5; 
+	color: #fff; 
+	font-size: 28px;
+	font-weight: 600;
 	font-family: 'Georgia', Times, Times New Roman, 
 		serif;
 }
 
 #bs-example-navbar-collapse-1 {
-	padding-top: 10px; 
-	color: gray;
+	padding-top: 20px; 
+	color: #ccc;
 }
 
 .mark {
@@ -61,11 +61,11 @@ h2, h3 {
 
 /*Sidebar*/
 #side1 {
-	background: white;
+	background: #fff;
 }
 
 #side2 {
-	background: white;
+	background: #fff;
 }
 
 .social {
@@ -77,23 +77,19 @@ h2, h3 {
 	font-family: 'Georgia', Times, Times New Roman, 
 		serif;
 		font-weight: 700;
-		color:#4aaaa5;
+		color: #4aaaa5;
 }
 
 /*Main section*/
 #main {
-	background: white;
+	background: #fff;
 
 }
 
 /*About Me*/
-#benny {
-
-	
-}
-
 p {
 	padding: 0 15px 10px 15px;
+	color: #777;
 }
 
 /*Portfolio*/
@@ -105,7 +101,7 @@ p {
 
 h4 {
 	background-color: #4aaaa5; 
-	color: white; 
+	color: #fff; 
 	top:95px;
     left:15px;
     position: absolute; 
@@ -151,14 +147,12 @@ label {
 
 }
 
-
-
 /*Footer*/
 footer {
 	text-align: center; 
 	background: #666;
 	color: #ccc;
-	border-top: solid 8px teal; 
+	border-top: solid 8px #4aaaa5; 
 	width: 100%; 
 	padding: 20px 0 20px 0;
 	font-size: 12px;
